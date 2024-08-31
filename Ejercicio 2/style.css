@@ -1,0 +1,33 @@
+.banner {
+    display: grid;
+    max-width: 900px;
+    margin-inline: auto;
+    padding: 10rem;
+    background-color: #aab7b8;
+    border-radius: 2rem;
+}
+
+.access {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100px;
+    margin-inline: auto;
+    margin-block-end: 1rem; 
+    border-radius: 50%;
+}
+
+@media (min-width: 700px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .banner__access {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
