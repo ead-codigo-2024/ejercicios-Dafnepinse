@@ -2,32 +2,36 @@
     display: grid;
     max-width: 900px;
     margin-inline: auto;
-    padding: 10rem;
-    background-color: #aab7b8;
-    border-radius: 2rem;
+    padding: 4rem;
+    background-color: #f1f8e9;
+    border-radius: 3rem;
+  }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.access {
+  a{
+    color: #1b5e20;
+  }
+  .access {
     text-align: center;
-}
-
-img {
+  }
+  img {
     display: block;
     max-width: 100px;
     margin-inline: auto;
     margin-block-end: 1rem; 
     border-radius: 50%;
-}
-
-@media (min-width: 700px) {
+  }
+  @media (min-width: 700px) {
     .banner {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
-    .banner__access {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+      gap: 2rem;
     }
 }
+    .banner__access {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap:2rem;
+    }
